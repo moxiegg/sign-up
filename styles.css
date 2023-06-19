@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    column-gap: 100px;
+}
+form{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:600px;
+    gap:10px; 
+    column-gap: 50px;   
+}
+.form-title{
+    width:400px;
+    font-family: 'Tilt Prism',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom:30px;    
+}
+.form-input{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+input{
+    width:200px;
+}
+button[type="submit"]{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    background-color:#394867;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFFFFF;
+    
+    border: none;
+    border-radius: 3px;
+    
+    padding: 10px 40px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: #212A3E;
+}
+.background{
+    font-family: 'Josefin Sans', sans-serif;
+    background: url("images/rohan-_KB4WigrpnU-unsplash.jpg");
+    background-size: cover;
+    width:500px;
+    height:100vh;
+    display:flex;
+    color:white;
+}
+.background svg{
+    width:50px;
+    height:50px;
+    vertical-align: middle;
+}
+.background div{
+    width:500px;
+    height:max-content;
+    margin-top:100px;
+    background-color: grey;
+    background-color: rgba(0, 0, 0, .25);
+    text-align: center;
+    text-transform: uppercase;
+    font-size:20px;
+}
+.icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;
+}
